@@ -1,0 +1,2 @@
+module Welcome::WelcomeHelper
+end
