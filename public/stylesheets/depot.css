@@ -1,4 +1,4 @@
-/* Global styles 
+/* Global styles */
 
 #store #notice {
         color: #000;
@@ -15,7 +15,7 @@
         color: #226;
         border-bottom: 3px dotted #77d;
 }
-*/
+
 /* Styles for products/index */
 
 #product_list table {
@@ -154,3 +154,57 @@
   margin-right: 2em;
 }
 #store .entry form, #store .entry form div {display: inline; }
+
+/* Styles for the cart in the main page */
+
+#store .cart_title {
+ font: 120% bold;
+}
+#store .item_price, #store .total_line {
+text-align: right;
+}
+#store .total_line  .total_cell { 
+font-weight: bold; 
+border-top: 1px solid #595;
+}
+/* Styles for the cart in the sidebar */
+
+#cart, #cart  table{ 
+font-size: smaller;
+color:white;
+}
+#cart table {
+border-top: 1px dotted #595;
+border-bottom: 1px dotted #595;
+margin-bottom: 10px;
+}
+
+/* Styles for order form */
+ 
+.depot_form fieldset {
+  background: #efe;
+}
+
+.depot_from legend{
+  color: #dfd;
+  background: #141;
+  font-family: sans-serif;
+  padding: 0.2em 1em;
+}
+
+.depot_from label{
+  width: 5em;
+  float: left;
+  text-align: right;
+  padding-top: 0.2em;
+  margin-right: 0.1em;
+  display: block;
+}
+
+.depot_form .submit {
+  margin: 4em;
+}
+
+.depot_form div {
+  margin: 0.5em 0;
+}
